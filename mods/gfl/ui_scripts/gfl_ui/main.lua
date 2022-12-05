@@ -4,10 +4,6 @@ function frontend()
     end)
 
     LUI.onmenuopen("main_campaign", function(menu)
-        if PersistentBackground.currentImage == "h2_gfl_menu_background_greyscale" then
-            return
-        end
-
         PersistentBackground.ChangeBackground("h2_gfl_menu_background_greyscale", nil, false)
     end)
 
