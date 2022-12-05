@@ -3,7 +3,7 @@
 
 # Requirements
 [Call of Duty: Modern Warfare 2 Campaign Remastered](https://us.shop.battle.net/en-us/product/call-of-duty-modern-warfare-2-campaign-remastered) (Battle.net - PC)*  
-[h2-mod](https://github.com/fedddddd/h2-mod)
+[h2-mod (DEVELOP BUILD)](https://github.com/fedddddd/h2-mod)
 
 # Wiki
 [How To Use](https://github.com/Loyalists/gflh2/wiki/How-To-Use)   
