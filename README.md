@@ -1,5 +1,5 @@
 # gflh2
-![](https://github.com/Loyalists/gflh2/blob/main/assets/logo.png?raw=true)
+![](https://github.com/Loyalists/gflh2/blob/main/assets/github/logo.png?raw=true)
 
 # Requirements
 [Call of Duty: Modern Warfare 2 Campaign Remastered](https://us.shop.battle.net/en-us/product/call-of-duty-modern-warfare-2-campaign-remastered) (Battle.net - PC)*  
