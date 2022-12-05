@@ -1,4 +1,4 @@
-![Discord](https://img.shields.io/discord/725057886958387393?label=Discord&logo=discord)
+[![Discord](https://img.shields.io/discord/725057886958387393?label=Discord&logo=discord)](https://discord.gg/yYQDxkUtkV)
 # gflh2
 ![](https://github.com/Loyalists/gflh2/blob/main/assets/github/logo.png?raw=true)
 
