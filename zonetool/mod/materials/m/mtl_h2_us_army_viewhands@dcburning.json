@@ -1,0 +1,37 @@
+{
+    "name": "m/mtl_h2_us_army_viewhands@dcburning",
+    "techniqueSet->name": "m_shadowcaster_atest",
+    "gameFlags": 128,
+    "sortKey": 39,
+    "renderFlags": 0,
+    "textureAtlasRowCount": 1,
+    "textureAtlasColumnCount": 1,
+    "textureAtlasFrameBlend": 0,
+    "textureAtlasAsArray": 0,
+    "surfaceTypeBits": 0,
+    "cameraRegion": 14,
+    "materialType": 1,
+    "assetFlags": 0,
+    "constantTable": [
+        {
+            "name": "uvScale",
+            "nameHash": 3809220315,
+            "literal": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "textureTable": [
+        {
+            "image": "i_gfl_black_alpha",
+            "semantic": 2,
+            "samplerState": 19,
+            "lastCharacter": 112,
+            "firstCharacter": 99,
+            "typeHash": 2695565377
+        }
+    ]
+}

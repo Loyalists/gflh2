@@ -1,0 +1,6 @@
+// loaded only ingame (loaded before any map zones)
+// game,common_gfl
+// always loaded (loaded after mod.ff)
+common,common_gfl_01
+common,common_gfl_02
+common,common_gfl_sf
