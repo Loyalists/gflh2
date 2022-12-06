@@ -22,12 +22,12 @@
 
 7. Have fun!
 
-# Wiki
-[Gallery](https://github.com/Loyalists/gflh2/wiki/Gallery)   
+# Wiki   
 [Known Issues](https://github.com/Loyalists/gflh2/wiki/Known-Issues)   
 [Credits](https://github.com/Loyalists/gflh2/wiki/Credits)   
 
 # Showcase
+[Gallery](https://github.com/Loyalists/gflh2/wiki/Gallery)
 [Playlist](https://www.youtube.com/playlist?list=PLHUTPjEfLLEIjsRub7FRDtQc-oJpnKD-0)   
 
 # Useful links
