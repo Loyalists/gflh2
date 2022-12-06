@@ -27,6 +27,9 @@
 [Known Issues](https://github.com/Loyalists/gflh2/wiki/Known-Issues)   
 [Credits](https://github.com/Loyalists/gflh2/wiki/Credits)   
 
+# Showcase
+[Playlist](https://www.youtube.com/playlist?list=PLHUTPjEfLLEIjsRub7FRDtQc-oJpnKD-0)   
+
 # Useful links
 [h2-dump](https://github.com/fedddddd/h2-dump)   
 [h2-zonetool](https://github.com/fedddddd/h2-zonetool)   
