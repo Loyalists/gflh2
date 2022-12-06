@@ -39,4 +39,4 @@
 [Developer console](https://callofduty.fandom.com/wiki/Developer_console)   
 
 # Disclaimer
-The mod is provided as-is and the contributors are not liable for any damage resulting from it. USE THE MOD AT YOUR OWN RISK.
+The mod is provided as-is and the contributors are not liable for any damage resulting from it. USE IT AT YOUR OWN RISK.
