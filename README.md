@@ -12,7 +12,7 @@
 
 2. Install the latest [DEVELOP BUILD of H2-Mod](https://github.com/fedddddd/h2-mod#installation).
 
-3. Download the latest [release](https://github.com/Loyalists/gflh2/releases/tag/1.0).
+3. Download the latest [release](https://github.com/Loyalists/gflh2/releases/tag/1.1).
 
 4. Extract the archive and copy the `gfl` folder from the latest release into the `mods` folder. If it doesn't exist create a `mods` folder in your **Call of Duty Modern Warfare 2 Campaign Remastered** folder, where MW2CR.exe is located.
 
