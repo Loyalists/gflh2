@@ -23,7 +23,6 @@
 7. Have fun!
 
 # Wiki
-[Releases](https://github.com/Loyalists/gflh2/releases/tag/1.0)   
 [Gallery](https://github.com/Loyalists/gflh2/wiki/Gallery)   
 [Known Issues](https://github.com/Loyalists/gflh2/wiki/Known-Issues)   
 [Credits](https://github.com/Loyalists/gflh2/wiki/Credits)   
