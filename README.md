@@ -2,11 +2,11 @@
 # gflh2
 ![](https://github.com/Loyalists/gflh2/blob/main/assets/github/logo.png?raw=true)
 
-# Requirements
+## Requirements
 [Call of Duty: Modern Warfare 2 Campaign Remastered](https://us.shop.battle.net/en-us/product/call-of-duty-modern-warfare-2-campaign-remastered) (Battle.net - PC)*  
 [h2-mod (DEVELOP BUILD)](https://github.com/fedddddd/h2-mod)
 
-# Installation
+## Installation
 **NOTE**: Cracked/Pirated versions of the game are NOT compatible with h2-mod, if you run such a version and have issues/crashes when running the client read [the installation note](https://github.com/fedddddd/h2-mod#installation).
 1. Prepare a copy of Call of Duty: Modern Warfare 2 Campaign Remastered.
 
@@ -23,15 +23,15 @@
 
 7. Have fun!
 
-# Wiki   
+## Wiki   
 [Known Issues](https://github.com/Loyalists/gflh2/wiki/Known-Issues)   
 [Credits](https://github.com/Loyalists/gflh2/wiki/Credits)   
 
-# Showcase
+## Showcase
 [Gallery](https://github.com/Loyalists/gflh2/wiki/Gallery)  
 [Playlist](https://www.youtube.com/playlist?list=PLHUTPjEfLLEIjsRub7FRDtQc-oJpnKD-0)   
 
-# Useful links
+## Useful links
 [h2-dump](https://github.com/fedddddd/h2-dump)   
 [h2-zonetool](https://github.com/fedddddd/h2-zonetool)   
 [zonetool (fed branch)](https://github.com/fedddddd/zonetool/tree/h2)   
@@ -39,5 +39,5 @@
 [Greyhound](https://github.com/Scobalula/Greyhound)   
 [Developer console](https://callofduty.fandom.com/wiki/Developer_console)   
 
-# Disclaimer
+## Disclaimer
 The mod is provided as-is and the contributors are not liable for any damage resulting from it. USE IT AT YOUR OWN RISK.
