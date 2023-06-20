@@ -1,6 +1,5 @@
 xmodel,h2_gfl_p90_body
 xmodel,h2_gfl_p90_head
-xmodel,h2_gfl_p90_hair
 xmodel,h2_gfl_p90_clothes
 
 xmodel,h2_gfl_9a91_body
@@ -18,7 +17,6 @@ xmodel,h2_gfl_type97_hair
 
 xmodel,h2_gfl_saiga12_body
 xmodel,h2_gfl_saiga12_head
-xmodel,h2_gfl_saiga12_hair
 xmodel,h2_gfl_saiga12_clothes
 
 xmodel,h2_gfl_fnc_body
@@ -27,7 +25,6 @@ xmodel,h2_gfl_fnc_clothes
 
 xmodel,h2_gfl_sten_body
 xmodel,h2_gfl_sten_head
-xmodel,h2_gfl_sten_hair
 
 xmodel,h2_gfl_dima_body
 xmodel,h2_gfl_dima_head
@@ -55,4 +52,3 @@ xmodel,h2_gfl_tac50_outline
 
 xmodel,h2_gfl_commander_body
 xmodel,h2_gfl_commander_head
-xmodel,h2_gfl_commander_hair

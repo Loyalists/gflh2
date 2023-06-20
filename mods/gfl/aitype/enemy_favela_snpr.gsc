@@ -21,7 +21,19 @@ main()
         self setengagementmaxdist( 1600.0, 2400.0 );
     }
 
-    self.weapon = "dragunov";
+    // self.weapon = "dragunov";
+    switch ( codescripts\character::get_random_weapon( 3 ) )
+    {
+        case 0:
+            self.weapon = "dragunov";
+            break;
+        case 1:
+            self.weapon = "iw5_mors_sp";
+            break;
+        case 2:
+            self.weapon = "iw5_gm6_sp";
+            break;
+    }
 
     character\gfl\randomizer_favela_sniper::main();
 }

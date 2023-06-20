@@ -21,7 +21,16 @@ main()
         self setengagementmaxdist( 512.0, 1024.0 );
     }
 
-    self.weapon = "rpd";
+    // self.weapon = "rpd";
+    switch ( codescripts\character::get_random_weapon( 2 ) )
+    {
+        case 0:
+            self.weapon = "rpd";
+            break;
+        case 1:
+            self.weapon = "iw5_asaw_sp";
+            break;
+    }
     character\gfl\randomizer_shadow_co_lmg::main();
 }
 

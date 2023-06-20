@@ -21,13 +21,16 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    switch ( codescripts\character::get_random_weapon( 2 ) )
+    switch ( codescripts\character::get_random_weapon( 3 ) )
     {
         case 0:
             self.weapon = "uzi";
             break;
         case 1:
             self.weapon = "mp5";
+            break;
+        case 2:
+            self.weapon = "iw5_mp11_sp";
             break;
     }
 

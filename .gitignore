@@ -2,6 +2,7 @@
 *.zip
 *.7z
 _ignored
+_backup
 model_export/
 zonetool/*
 !zonetool/mod/

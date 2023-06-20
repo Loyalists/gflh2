@@ -21,13 +21,16 @@ main()
         self setengagementmaxdist( 280.0, 400.0 );
     }
 
-    switch ( codescripts\character::get_random_weapon( 2 ) )
+    switch ( codescripts\character::get_random_weapon( 3 ) )
     {
         case 0:
             self.weapon = "striker_woodland";
             break;
         case 1:
             self.weapon = "striker_woodland_reflex";
+            break;
+        case 2:
+            self.weapon = "iw5_uts19_sp";
             break;
     }
 

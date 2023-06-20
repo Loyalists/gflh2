@@ -21,7 +21,7 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    switch ( codescripts\character::get_random_weapon( 6 ) )
+    switch ( codescripts\character::get_random_weapon( 9 ) )
     {
         case 0:
             self.weapon = "tavor_acog";
@@ -40,6 +40,15 @@ main()
             break;
         case 5:
             self.weapon = "fn2000_scope";
+            break;
+        case 6:
+            self.weapon = "iw5_ak12_sp";
+            break;
+        case 7:
+            self.weapon = "iw5_hbra3_sp";
+            break;
+        case 8:
+            self.weapon = "iw5_bal27_sp";
             break;
     }
 

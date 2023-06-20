@@ -21,7 +21,7 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    self.weapon = "scar_h_thermal";
+    self.weapon = "m4m203_eotech";
     character\gfl\character_gfl_g11::main();
 }
 

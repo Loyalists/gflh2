@@ -21,7 +21,22 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    self.weapon = "m4_grunt";
+    // self.weapon = "m4_grunt";
+    switch ( codescripts\character::get_random_weapon( 4 ) )
+    {
+        case 0:
+            self.weapon = "m4_grunt";
+            break;
+        case 1:
+            self.weapon = "iw5_ak12_sp";
+            break;
+        case 2:
+            self.weapon = "iw5_hbra3_sp";
+            break;
+        case 3:
+            self.weapon = "iw5_bal27_sp";
+            break;
+    }
 
     character\gfl\randomizer_us_army::main();
 }

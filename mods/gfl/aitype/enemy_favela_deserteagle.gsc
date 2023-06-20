@@ -21,7 +21,7 @@ main()
         self setengagementmaxdist( 350.0, 600.0 );
     }
 
-    self.weapon = "ak47";
+    self.weapon = "iw5_ak12_sp";
 
     character\gfl\randomizer_favela_ar::main();
 }

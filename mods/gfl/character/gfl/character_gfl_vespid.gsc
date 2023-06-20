@@ -5,16 +5,13 @@ main()
 {
 	character\gfl\_utility::detach_all_attachments();
 	self.charactername = "Vespid";
-	thread character\gfl\_utility::set_character_name();
-	self setmodel("h2_gfl_vespid_body");
-	self.headmodel = "h2_gfl_vespid_head";
-	self attach(self.headmodel, "", true);
+	self setmodel("h2_gfl_vespid_fb");
+	character\gfl\_utility::attach_all_attachments();
 	self.voice = "russian";
 	self setclothtype( "vestlight" );
 }
 
 precache()
 {
-	precachemodel("h2_gfl_vespid_body");
-	precachemodel("h2_gfl_vespid_head");
+	precachemodel("h2_gfl_vespid_fb");
 }

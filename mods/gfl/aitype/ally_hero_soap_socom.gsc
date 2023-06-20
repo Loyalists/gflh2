@@ -21,7 +21,7 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    self.weapon = "m4_grunt";
+    self.weapon = "m4m203_acog";
     character\gfl\character_gfl_m4_sopmod_ii::main();
 }
 

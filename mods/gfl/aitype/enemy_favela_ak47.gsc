@@ -21,7 +21,7 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    switch ( codescripts\character::get_random_weapon( 4 ) )
+    switch ( codescripts\character::get_random_weapon( 5 ) )
     {
         case 0:
             self.weapon = "ak47";
@@ -34,6 +34,9 @@ main()
             break;
         case 3:
             self.weapon = "ak47_acog";
+            break;
+        case 4:
+            self.weapon = "iw5_ak12_sp";
             break;
     }
 

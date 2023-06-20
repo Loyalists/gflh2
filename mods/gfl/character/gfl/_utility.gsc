@@ -17,6 +17,24 @@ detach_all_attachments()
 	}
 }
 
+attach_all_attachments()
+{
+	if ( isdefined( self.headmodel ) ) 
+	{
+		self attach( self.headmodel, "", true );
+	}
+
+	if ( isdefined( self.accessorymodels ) ) 
+	{
+		attach_accessorymodels();
+	}
+
+	if ( isdefined( self.charactername ) ) 
+	{
+		thread set_character_name();
+	}
+}
+
 attach_accessorymodels()
 {
 	if ( !isdefined( self.accessorymodels ) ) 
@@ -77,4 +95,37 @@ set_character_name() {
 		}
 		wait 2;
 	}
+}
+
+swap_character( ent ) 
+{
+	detach_all_attachments();
+	self setmodel( ent.model );
+	
+	if ( isdefined( ent.headmodel ) ) 
+	{
+		self.headmodel = ent.headmodel;
+	}
+
+	if ( isdefined( ent.accessorymodels ) ) 
+	{
+		self.accessorymodels = ent.accessorymodels;
+	}
+
+	if ( isdefined( ent.charactername ) ) 
+	{
+		self.charactername = ent.charactername;
+	}
+
+	attach_all_attachments();
+}
+
+is_nolod_enabled()
+{
+    result = getdvarint( "gfl_enable_nolod" );
+	if (result == 1) {
+		return true;
+	}
+
+	return false;
 }

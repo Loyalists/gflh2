@@ -21,7 +21,7 @@ main()
         self setengagementmaxdist( 1024.0, 1250.0 );
     }
 
-    switch ( codescripts\character::get_random_weapon( 3 ) )
+    switch ( codescripts\character::get_random_weapon( 4 ) )
     {
         case 0:
             self.weapon = "rpd_acog";
@@ -31,6 +31,9 @@ main()
             break;
         case 2:
             self.weapon = "rpd_reflex";
+            break;
+        case 3:
+            self.weapon = "iw5_asaw_sp";
             break;
     }
 

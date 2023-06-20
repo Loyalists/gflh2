@@ -1554,31 +1554,7 @@ _id_C969()
     level.gacha = true;
     // precachemodel( level._id_C952 );
     // precachemodel( level._id_D0CD );
-    character\gfl\character_gfl_hk416::precache();
-	character\gfl\character_gfl_g11::precache();
-    character\gfl\character_gfl_m4a1::precache();
-	character\gfl\character_gfl_m4_sopmod_ii::precache();
-	character\gfl\character_gfl_ro635::precache();
-    character\gfl\character_gfl_rpk16::precache();
-	character\gfl\character_gfl_suomi::precache();
-	character\gfl\character_gfl_dima::precache();
-    character\gfl\character_gfl_ak12::precache();
-	character\gfl\character_gfl_p90::precache();
-	character\gfl\character_gfl_9a91::precache();
-	character\gfl\character_gfl_rfb::precache();
-	character\gfl\character_gfl_type97::precache();
-	character\gfl\character_gfl_saiga12::precache();
-	character\gfl\character_gfl_fnc::precache();
-	character\gfl\character_gfl_sten::precache();
-	character\gfl\character_gfl_ak74m::precache();
-	character\gfl\character_gfl_sp9::precache();
-	character\gfl\character_gfl_tac50::precache();
-	character\gfl\character_gfl_commander::precache();
-	character\gfl\character_gfl_ouroboros::precache();
-	character\gfl\character_gfl_vespid::precache();
-	character\gfl\character_gfl_jaeger_goggle_up::precache();
-	character\gfl\character_gfl_ripper::precache();
-	character\gfl\character_gfl_guard_visor_up::precache();
+    maps\gfl\_utility::precache_all_characters();
 
     precacheitem( level._id_C9BA );
     add_specialfeatures_function( ::_id_CA1D );
@@ -1590,7 +1566,7 @@ randomize()
     level._id_D0CD = undefined;
     level.accessorymodels_cheat = undefined;
 
-	switch( randomint(25) )
+	switch( randomint(34) )
 	{
 	case 0:
         level._id_C952 = "h2_gfl_hk416_body";
@@ -1609,7 +1585,6 @@ randomize()
 	case 3:
         level._id_C952 = "h2_gfl_m4_sopmod_ii_body";
         level._id_D0CD = "h2_gfl_m4_sopmod_ii_head";
-        level.accessorymodels_cheat = [ "h2_gfl_m4_sopmod_ii_hair" ];
 		break;
 	case 4:
         level._id_C952 = "h2_gfl_ro635_body";
@@ -1639,7 +1614,7 @@ randomize()
 	case 9:
         level._id_C952 = "h2_gfl_p90_body";
         level._id_D0CD = "h2_gfl_p90_head";
-        level.accessorymodels_cheat = [ "h2_gfl_p90_hair", "h2_gfl_p90_clothes" ];
+        level.accessorymodels_cheat = [ "h2_gfl_p90_clothes" ];
 		break;
 	case 10:
         level._id_C952 = "h2_gfl_9a91_body";
@@ -1659,7 +1634,7 @@ randomize()
 	case 13:
         level._id_C952 = "h2_gfl_saiga12_body";
         level._id_D0CD = "h2_gfl_saiga12_head";
-        level.accessorymodels_cheat = [ "h2_gfl_saiga12_hair", "h2_gfl_saiga12_clothes" ];
+        level.accessorymodels_cheat = [ "h2_gfl_saiga12_clothes" ];
 		break;
 	case 14:
         level._id_C952 = "h2_gfl_fnc_body";
@@ -1669,7 +1644,6 @@ randomize()
 	case 15:
         level._id_C952 = "h2_gfl_sten_body";
         level._id_D0CD = "h2_gfl_sten_head";
-        level.accessorymodels_cheat = [ "h2_gfl_sten_hair" ];
 		break;
 	case 16:
         level._id_C952 = "h2_gfl_ak74m_body";
@@ -1677,9 +1651,9 @@ randomize()
         level.accessorymodels_cheat = [ "h2_gfl_ak74m_hair", "h2_gfl_ak74m_outline" ];
 		break;
 	case 17:
-        level._id_C952 = "h2_gfl_sp9_body";
-        level._id_D0CD = "h2_gfl_sp9_head";
-        level.accessorymodels_cheat = [ "h2_gfl_sp9_hair", "h2_gfl_sp9_outline" ];
+        level._id_C952 = "h1_gfl_sp9_v2_body";
+        level._id_D0CD = "h1_gfl_sp9_v2_head";
+        level.accessorymodels_cheat = [ "h1_gfl_sp9_v2_hair" ];
 		break;
 	case 18:
         level._id_C952 = "h2_gfl_tac50_body";
@@ -1689,29 +1663,65 @@ randomize()
 	case 19:
         level._id_C952 = "h2_gfl_commander_body";
         level._id_D0CD = "h2_gfl_commander_head";
-        level.accessorymodels_cheat = [ "h2_gfl_commander_hair" ];
 		break;
 	case 20:
         level._id_C952 = "h2_gfl_ouroboros_body";
         level._id_D0CD = "h2_gfl_ouroboros_head";
 		break;
 	case 21:
-        level._id_C952 = "h2_gfl_vespid_body";
-        level._id_D0CD = "h2_gfl_vespid_head";
+        level._id_C952 = "h2_gfl_vespid_fb";
 		break;
 	case 22:
-        level._id_C952 = "h2_gfl_jaeger_body";
-        level._id_D0CD = "h2_gfl_jaeger_head";
+        level._id_C952 = "h2_gfl_jaeger_fb";
         level.accessorymodels_cheat = [ "h2_gfl_jaeger_goggle_up" ];
 		break;
 	case 23:
-        level._id_C952 = "h2_gfl_ripper_body";
-        level._id_D0CD = "h2_gfl_ripper_head";
+        level._id_C952 = "h2_gfl_ripper_fb";
 		break;
 	case 24:
-        level._id_C952 = "h2_gfl_guard_body";
-        level._id_D0CD = "h2_gfl_guard_head";
+        level._id_C952 = "h2_gfl_guard_fb";
         level.accessorymodels_cheat = [ "h2_gfl_guard_visor_up" ];
+		break;
+	case 25:
+        level._id_C952 = "h1_gfl_dreamer_body";
+        level._id_D0CD = "h1_gfl_dreamer_head";
+		break;
+	case 26:
+        level._id_C952 = "h1_gfl_destroyer_body";
+        level._id_D0CD = "h1_gfl_destroyer_head";
+		break;
+	case 27:
+        level._id_C952 = "h1_gfl_ppsh41_body";
+        level._id_D0CD = "h1_gfl_ppsh41_head";
+		break;
+	case 28:
+        level._id_C952 = "h1_gfl_super_sass_body";
+        level._id_D0CD = "h1_gfl_super_sass_head";
+        level.accessorymodels_cheat = [ "h1_gfl_super_sass_clothes" ];
+		break;
+	case 29:
+        level._id_C952 = "s1_gfl_mp7_body_tights";
+        level._id_D0CD = "s1_gfl_mp7_head";
+        level.accessorymodels_cheat = [ "s1_gfl_mp7_jacket", "s1_gfl_mp7_hat", "s1_gfl_mp7_headset" ];
+		break;
+	case 30:
+        level._id_C952 = "s1_gfl_m14_body";
+        level._id_D0CD = "s1_gfl_m14_head";
+        level.accessorymodels_cheat = [ "s1_gfl_m14_hair" ];
+		break;
+	case 31:
+        level._id_C952 = "s1_gfl_spas12_body";
+        level._id_D0CD = "s1_gfl_spas12_head";
+        level.accessorymodels_cheat = [ "s1_gfl_spas12_hair", "s1_gfl_spas12_outline" ];
+		break;
+	case 32:
+        level._id_C952 = "s1_gfl_sv98_body";
+        level._id_D0CD = "s1_gfl_sv98_head";
+		break;
+	case 33:
+        level._id_C952 = "s1_gfl_g36c_body";
+        level._id_D0CD = "s1_gfl_g36c_head";
+        level.accessorymodels_cheat = [ "s1_gfl_g36c_vest" ];
 		break;
 	}
 }
@@ -1892,6 +1902,12 @@ _id_AEA0()
     {
         self setmodel( self.cheat._id_B9FC );
         self.cheat._id_B9FC = undefined;
+    }
+
+    if ( !isdefined( self.cheat._id_D184 ) && isdefined( self.headmodel ) )
+    {
+        self detach( self.headmodel );
+        self.headmodel = undefined;
     }
 
     if ( isdefined( self.cheat._id_D184 ) && !isdefined( self.cheat._id_C86E ) )

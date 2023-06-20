@@ -12,7 +12,7 @@ main()
     self.health = 150;
     self.grenadeweapon = "fraggrenade";
     self.grenadeammo = 0;
-    self.secondaryweapon = "ak47";
+    self.secondaryweapon = "iw5_ak12_sp";
     self.sidearm = "glock";
 
     if ( isai( self ) )

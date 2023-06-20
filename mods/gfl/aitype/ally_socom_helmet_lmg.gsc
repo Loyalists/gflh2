@@ -21,7 +21,16 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    self.weapon = "mg4";
+    // self.weapon = "mg4";
+    switch ( codescripts\character::get_random_weapon( 2 ) )
+    {
+        case 0:
+            self.weapon = "mg4";
+            break;
+        case 1:
+            self.weapon = "iw5_asaw_sp";
+            break;
+    }
 
     character\gfl\randomizer_socom::main();
 }

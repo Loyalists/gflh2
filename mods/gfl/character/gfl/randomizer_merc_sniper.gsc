@@ -2,7 +2,7 @@ main()
 {
 	character\gfl\_utility::detach_all_attachments();
 
-	switch( codescripts\character::get_random_character(2) )
+	switch( character\gfl\_utility::get_random_character(2) )
 	{
 	case 0:
 		character\gfl\character_gfl_jaeger::main();

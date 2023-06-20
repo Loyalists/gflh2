@@ -21,7 +21,7 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    switch ( codescripts\character::get_random_weapon( 17 ) )
+    switch ( codescripts\character::get_random_weapon( 20 ) )
     {
         case 0:
             self.weapon = "m4_grenadier";
@@ -73,6 +73,15 @@ main()
             break;
         case 16:
             self.weapon = "scar_h_shotgun";
+            break;
+        case 17:
+            self.weapon = "iw5_ak12_sp";
+            break;
+        case 18:
+            self.weapon = "iw5_hbra3_sp";
+            break;
+        case 19:
+            self.weapon = "iw5_bal27_sp";
             break;
     }
 

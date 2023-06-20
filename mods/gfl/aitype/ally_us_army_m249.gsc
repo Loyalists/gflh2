@@ -21,7 +21,7 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    switch ( codescripts\character::get_random_weapon( 3 ) )
+    switch ( codescripts\character::get_random_weapon( 4 ) )
     {
         case 0:
             self.weapon = "m240";
@@ -31,6 +31,9 @@ main()
             break;
         case 2:
             self.weapon = "m240_reflex";
+            break;
+        case 3:
+            self.weapon = "iw5_asaw_sp";
             break;
     }
 

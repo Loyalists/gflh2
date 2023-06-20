@@ -616,7 +616,7 @@ _id_B36A()
 _id_B5C0()
 {
     var_0 = _id_B6CC();
-    var_0 thread maps\_hud_util::_id_CC64( ::_id_BA61, "Merlin", "allies" );
+    // var_0 thread maps\_hud_util::_id_CC64( ::_id_BA61, "Merlin", "allies" );
     // var_0 codescripts\character::setheadmodel( "h2_head_seal_soccom_e" );
     var_0 character\gfl\randomizer_tf_141::main();
     var_0 linkto( self, "tag_driver" );

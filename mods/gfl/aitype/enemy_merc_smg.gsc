@@ -21,7 +21,7 @@ main()
         self setengagementmaxdist( 512.0, 768.0 );
     }
 
-    switch ( codescripts\character::get_random_weapon( 7 ) )
+    switch ( codescripts\character::get_random_weapon( 8 ) )
     {
         case 0:
             self.weapon = "p90";
@@ -43,6 +43,9 @@ main()
             break;
         case 6:
             self.weapon = "ump45_eotech";
+            break;
+        case 7:
+            self.weapon = "iw5_mp11_sp";
             break;
     }
 

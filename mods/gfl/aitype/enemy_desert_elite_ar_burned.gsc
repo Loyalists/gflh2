@@ -21,7 +21,7 @@ main()
         self setengagementmaxdist( 512.0, 1024.0 );
     }
 
-    switch ( codescripts\character::get_random_weapon( 12 ) )
+    switch ( codescripts\character::get_random_weapon( 15 ) )
     {
         case 0:
             self.weapon = "masada_digital";
@@ -58,6 +58,15 @@ main()
             break;
         case 11:
             self.weapon = "masada_digital_reflex";
+            break;
+        case 12:
+            self.weapon = "iw5_ak12_sp";
+            break;
+        case 13:
+            self.weapon = "iw5_hbra3_sp";
+            break;
+        case 14:
+            self.weapon = "iw5_bal27_sp";
             break;
     }
 

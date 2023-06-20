@@ -21,7 +21,7 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    switch ( codescripts\character::get_random_weapon( 9 ) )
+    switch ( codescripts\character::get_random_weapon( 12 ) )
     {
         case 0:
             self.weapon = "tavor_woodland_acog";
@@ -49,6 +49,15 @@ main()
             break;
         case 8:
             self.weapon = "fn2000_thermal";
+            break;
+        case 9:
+            self.weapon = "iw5_ak12_sp";
+            break;
+        case 10:
+            self.weapon = "iw5_hbra3_sp";
+            break;
+        case 11:
+            self.weapon = "iw5_bal27_sp";
             break;
     }
 

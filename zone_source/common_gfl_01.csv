@@ -2,6 +2,9 @@ xmodel,h2_gfl_m4a1_body
 xmodel,h2_gfl_m4a1_head
 xmodel,h2_gfl_m4a1_hair
 xmodel,h2_gfl_m4a1_outline
+xmodel,h2_gfl_m4a1_viewbody
+xmodel,h2_gfl_m4a1_viewhands
+xmodel,h2_gfl_m4a1_viewhands_player
 
 xmodel,h2_gfl_ump45_viewbody
 xmodel,h2_gfl_ump45_viewhands
@@ -15,7 +18,6 @@ xmodel,h2_gfl_st_ar15_viewhands_player
 
 xmodel,h2_gfl_m4_sopmod_ii_body
 xmodel,h2_gfl_m4_sopmod_ii_head
-xmodel,h2_gfl_m4_sopmod_ii_hair
 xmodel,h2_gfl_m4_sopmod_ii_viewbody
 xmodel,h2_gfl_m4_sopmod_ii_viewbody_uaz
 xmodel,h2_gfl_m4_sopmod_ii_viewhands

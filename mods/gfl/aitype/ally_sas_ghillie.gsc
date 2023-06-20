@@ -21,7 +21,20 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    self.weapon = "m14_scoped";
+    // self.weapon = "m14_scoped";
+    switch ( codescripts\character::get_random_weapon( 3 ) )
+    {
+        case 0:
+            self.weapon = "m14_scoped";
+            break;
+        case 1:
+            self.weapon = "iw5_gm6_sp";
+            break;
+        case 2:
+            self.weapon = "iw5_mors_sp";
+            break;
+    }
+    
     character\gfl\randomizer_tf_141::main();
 }
 
