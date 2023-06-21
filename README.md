@@ -15,13 +15,11 @@
 3. Download the latest [release](https://github.com/Loyalists/gflh2/releases/latest).  
 **Do NOT download the repository as ZIP, that won't work, make sure you download the LATEST RELEASE.**
 
-4. Extract the archive and copy the `gfl` folder from the latest release into the `mods` folder. If it doesn't exist create a `mods` folder in your **Call of Duty Modern Warfare 2 Campaign Remastered** folder, where MW2CR.exe is located.
+4. Extract the archive and move the files from the latest release into root folder of the game, where s1_sp64_ship.exe is located.
 
-5. Launch the game with h2-mod.exe.
+5. Launch the game with h2-mod-gfl.bat, or alternatively h2-mod.exe and load **GFL** mod in game.
 
-6. Open the **MODS** tab and load **GFL** mod.
-
-7. Have fun!
+6. Have fun!
 
 ## Wiki   
 [Known Issues](https://github.com/Loyalists/gflh2/wiki/Known-Issues)   
